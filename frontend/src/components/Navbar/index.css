@@ -1,0 +1,23 @@
+.Navbar{
+    height: 40px;
+    margin: 0;
+    padding: 5px 15px;
+    background-color: var(--primary-bar-color);
+    color: var(--primary-text-color-white);
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+
+    &>div{
+      padding: 3px 5px;
+      cursor: pointer;
+
+      &>span:hover{
+        color: var(--text-white-hover-color);
+      }
+    }
+}
+
